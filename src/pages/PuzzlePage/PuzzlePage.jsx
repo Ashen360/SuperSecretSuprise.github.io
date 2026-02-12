@@ -190,7 +190,7 @@ export default function PuzzlePage({ onNext }) {
         </div>
 
             {/* comment out once done with testing and ready to show  */}
-        <div className="puzzle-info">
+        {/* <div className="puzzle-info">
           <p className="pieces-counter">
             Pieces placed: {Object.keys(placedPieces).length} / {TOTAL_PIECES}
           </p>
@@ -203,7 +203,7 @@ export default function PuzzlePage({ onNext }) {
           <button className="bypass-btn" onClick={onNext}>
             Skip Puzzle (Testing)
           </button>
-        </div>
+        </div> */}
 
         {showOverlay && (
           <div className="completion-overlay">
